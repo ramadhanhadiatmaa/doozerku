@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Doozerku",
+      title: "Doozerku - Heavy Equipment Rent",
       home: HomeScreen(),
     );
   }

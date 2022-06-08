@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../constants.dart';
 import '../components/button_login.dart';
+import '../components/image_circle.dart';
 import '../components/menu_container.dart';
 
 class WebHeader extends StatelessWidget {
@@ -108,37 +109,28 @@ class WebHeader extends StatelessWidget {
                   Spacer(),
                   Column(
                     children: [
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(20),
-                        child: Image.asset(
-                          "assets/images/Image_header_2.png",
-                          height: 150,
-                          width: 150,
-                        ),
+                      ImageCircle(
+                        image: "assets/images/Image_header_2.jpg",
+                        height: 150,
+                        width: 150,
                       ),
                       SizedBox(
                         height: DefaultPadding,
                       ),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(20),
-                        child: Image.asset(
-                          "assets/images/Image_header_3.png",
-                          height: 150,
-                          width: 150,
-                        ),
+                      ImageCircle(
+                        image: "assets/images/Image_header_3.jpg",
+                        height: 150,
+                        width: 150,
                       ),
                     ],
                   ),
                   SizedBox(
                     width: DefaultPadding,
                   ),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    child: Image.asset(
-                      "assets/images/Image_header_1.png",
-                      height: 320,
-                      width: 320,
-                    ),
+                  ImageCircle(
+                    image: "assets/images/Image_header_1.jpg",
+                    height: 320,
+                    width: 320,
                   ),
                 ],
               ),

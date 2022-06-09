@@ -88,7 +88,7 @@ class BannerSection extends StatelessWidget {
                 Column(
                   children: [
                     ImageCircle(
-                      image: "assets/images/Image_header_2.jpg",
+                      image: "assets/images/Image_header_2.webp",
                       height: 150,
                       width: 150,
                     ),
@@ -96,7 +96,7 @@ class BannerSection extends StatelessWidget {
                       height: DefaultPadding,
                     ),
                     ImageCircle(
-                      image: "assets/images/Image_header_3.jpg",
+                      image: "assets/images/Image_header_3.webp",
                       height: 150,
                       width: 150,
                     ),
@@ -106,7 +106,7 @@ class BannerSection extends StatelessWidget {
                   width: DefaultPadding,
                 ),
                 ImageCircle(
-                  image: "assets/images/Image_header_1.jpg",
+                  image: "assets/images/Image_header_1.webp",
                   height: 320,
                   width: 320,
                 ),
@@ -188,7 +188,7 @@ class BannerSection extends StatelessWidget {
                 Column(
                   children: [
                     ImageCircle(
-                      image: "assets/images/Image_header_2.jpg",
+                      image: "assets/images/Image_header_2.webp",
                       height: 120,
                       width: 120,
                     ),
@@ -196,7 +196,7 @@ class BannerSection extends StatelessWidget {
                       height: DefaultPadding,
                     ),
                     ImageCircle(
-                      image: "assets/images/Image_header_3.jpg",
+                      image: "assets/images/Image_header_3.webp",
                       height: 120,
                       width: 120,
                     ),
@@ -206,7 +206,7 @@ class BannerSection extends StatelessWidget {
                   width: DefaultPadding,
                 ),
                 ImageCircle(
-                  image: "assets/images/Image_header_1.jpg",
+                  image: "assets/images/Image_header_1.webp",
                   height: 120,
                   width: 120,
                 ),

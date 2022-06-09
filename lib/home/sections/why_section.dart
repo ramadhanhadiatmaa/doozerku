@@ -23,7 +23,7 @@ class WhySection extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           TextSection(
-            title: "Why Us",
+            title: "Why Doozerku",
             desc:
                 "It’s through mistakess that you can actually grow you get rid off everything that is not essential to make have to get bad.",
           ),

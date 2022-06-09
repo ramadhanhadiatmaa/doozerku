@@ -113,3 +113,104 @@ class MenuContainer extends StatelessWidget {
     );
   }
 }
+
+class MenuMobile extends StatelessWidget {
+  const MenuMobile({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        InkWell(
+          onTap: () {
+            showDialog(
+              context: context,
+              builder: (BuildContext context) => AlertDialog(
+                title: Text("Home"),
+                content: Text("Home Clicked!"),
+                actions: [
+                  IconButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    icon: Icon(Icons.close),
+                  ),
+                ],
+              ),
+            );
+          },
+          child: MenuTitle(
+            title: "Home",
+          ),
+        ),
+        Divider(),
+        InkWell(
+          onTap: () {
+            showDialog(
+                context: context,
+                builder: (BuildContext context) => AlertDialog(
+                      title: Text("How it Works"),
+                      content: Text("How it Works Clicked!"),
+                      actions: [
+                        IconButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          icon: Icon(Icons.close),
+                        ),
+                      ],
+                    ));
+          },
+          child: MenuTitle(
+            title: "How it Works",
+          ),
+        ),
+        Divider(),
+        InkWell(
+          onTap: () {
+            showDialog(
+              context: context,
+              builder: (BuildContext context) => AlertDialog(
+                title: Text("About"),
+                content: Text("About Clicked!"),
+                actions: [
+                  IconButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    icon: Icon(Icons.close),
+                  ),
+                ],
+              ),
+            );
+          },
+          child: MenuTitle(
+            title: "About",
+          ),
+        ),
+        Divider(),
+        InkWell(
+          onTap: () {
+            showDialog(
+                context: context,
+                builder: (BuildContext context) => AlertDialog(
+                      title: Text("Service"),
+                      content: Text("Service Clicked!"),
+                      actions: [
+                        IconButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          icon: Icon(Icons.close),
+                        ),
+                      ],
+                    ));
+          },
+          child: MenuTitle(
+            title: "Service",
+          ),
+        ),
+      ],
+    );
+  }
+}

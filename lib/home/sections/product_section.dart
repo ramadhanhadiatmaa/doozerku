@@ -25,7 +25,7 @@ class ProductSection extends StatelessWidget {
           TextSection(
             title: "Our Featured Tools",
             desc:
-                "It’s through mistakess that you can actually grow you get rid off\neverything that is not essential to make have to get bad",
+                "It’s through mistakess that you can actually grow you get rid off everything that is not essential to make have to get bad",
           ),
           SizedBox(
             height: DefaultPadding * 2,

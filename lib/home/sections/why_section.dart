@@ -17,7 +17,7 @@ class WhySection extends StatelessWidget {
       padding: const EdgeInsets.only(
         left: DefaultPadding,
         right: DefaultPadding,
-        top: DefaultPadding * 3,
+        top: DefaultPadding * 2,
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -25,7 +25,7 @@ class WhySection extends StatelessWidget {
           TextSection(
             title: "Why Us",
             desc:
-                "It’s through mistakess that you can actually grow you get rid off\neverything that is not essential to make have to get bad.",
+                "It’s through mistakess that you can actually grow you get rid off everything that is not essential to make have to get bad.",
           ),
           SizedBox(
             height: DefaultPadding,

@@ -15,7 +15,7 @@ class ImageCircle extends StatelessWidget {
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
-      child: Image.asset(
+      child: Image.network(
         image!,
         height: height,
         width: width,

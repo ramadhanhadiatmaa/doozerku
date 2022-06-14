@@ -20,7 +20,8 @@ class AboutSection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           ImageCircle(
-            image: "assets/images/Image_about.webp",
+            image:
+                "https://cdn.statically.io/gh/kodlitecom/doozerku/960d7f04/assets/images/image_about.webp",
             height: 250,
             width: 416,
           ),
@@ -99,7 +100,7 @@ class AboutSection extends StatelessWidget {
         children: [
           ImageCircle(
             image:
-                "https://cdn.statically.io/gh/kodlitecom/doozerku/ebb02f7a/assets/images/image_about.webp",
+                "https://cdn.statically.io/gh/kodlitecom/doozerku/960d7f04/assets/images/image_about.webp",
             height: 156,
             width: 260,
           ),
